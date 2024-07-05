@@ -1,128 +1,241 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Canapés to Cakes - Contact Us</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
     <link href="css/all.min.css" rel="stylesheet" />
-	<link href="css/templatemo-style.css" rel="stylesheet" />
-	<style>
-		        body {
-            background-color: #f8efd4; /* A warm, bright color for hungry customers */
+    <link href="css/templatemo-style.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #000000; /* Black background */
+            color: #ffd700; /* Gold text */
+            font-family: 'Great Vibes', cursive; /* Google Font */
         }
-	</style>
+
+        @media (min-width: 768px) {
+            .container {
+                background-color: #ffd700; /* Gold background for left and right sides */
+                padding: 20px;
+				border-radius: 10px;
+            }
+        }
+
+        .content {
+            background-color: #000000; /* Black background for main content */
+            padding: 20px;
+            color: #ffd700; /* Gold text */
+			border-radius: 10px;
+        }
+
+        .tm-site-title, .tm-site-description, .tm-nav-link, .tm-gallery-title, .tm-gallery-description, .tm-gallery-price, p, h2, h4 {
+            color: #ffd700; /* Gold text for various elements */
+        }
+
+        .tm-site-logo {
+            width: 90px;
+            height: auto;
+        }
+
+        .tm-nav-link.active {
+            border-bottom: 2px solid #ffd700; /* Gold underline for active link */
+        }
+
+        .tm-gallery-img, .tm-description-figure img {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        .tm-description-figure img {
+            height: 150px; /* smaller height for the homemade goodness picture */
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        a {
+            color: #ffd700;
+        }
+
+        .tm-btn-default {
+            background-color: #ffd700;
+            color: #000000;
+        }
+
+        .tm-feature-description {
+            color: #ffd700; /* Gold text */
+        }
+
+        .header-content {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .header-background {
+            position: relative;
+            background: url('img/New folder/chineseFryChicken.jpeg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end; /* Align items at the bottom */
+            padding: 20px; /* Add padding to give some space at the bottom */
+			border-radius: 5px;
+        }
+        .header-left {
+            text-align: left;
+            width: 100%;
+        }
+        .header-right {
+            text-align: right;
+            margin-top: auto; /* Push to the bottom */
+        }
+        .tm-contact-section {
+            color: #ffd700;
+        }
+
+        .tm-contact-section .tm-contact-link {
+            color: #ffd700;
+        }
+
+        .tm-contact-section h4 {
+            color: #ffd700;
+        }
+
+        .tm-contact-form .form-control {
+            color: #000000;
+            background-color: #ffd700;
+            border: 1px solid #ffd700;
+        }
+
+        .tm-contact-form .form-control:focus {
+            color: #000000;
+            background-color: #ffd700;
+            border-color: #ffd700;
+        }
+
+        .tm-contact-form .tm-btn {
+            background-color: #ffd700;
+            color: #000000;
+        }
+
+        .tm-contact-form .tm-btn:hover {
+            background-color: #ffd700;
+            color: #000000;
+        }
+
+        .tm-footer {
+            color: #ffd700; /* Gold text */
+        }
+
+        .tm-social-link {
+            color: #ffd700;
+            margin: 0 5px;
+        }
+
+        .tm-social-link:hover {
+            color: #ffffff;
+        }
+    </style>
 </head>
-<body> 
-	<div class="container">
-		<div class="placeholder">
-			<div class="parallax-window" data-parallax="scroll" data-image-src="img/New folder/chocstraw.jpg">
-				<div class="tm-header">
-					<div class="row tm-header-inner">
-						<div class="col-md-6 col-12">
-							<img src="img/New folder/logo4.jpg" alt="Logo" class="tm-site-logo" style="width: 90px; height: auto;" />
-							<div class="tm-site-text-box">
-								<h1 class="tm-site-title">Canapés to Cakes</h1>
-								<h6 class="tm-site-description">Delicious Savoury and Desserts</h6>	
-							</div>
-						</div>
-						<nav class="col-md-6 col-12 tm-nav">
-							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
-								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
-								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">Contact</a></li>
-							</ul>
-						</nav>	
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<main>
-			<header class="row tm-welcome-section">
-				<h2 class="col-12 text-center tm-section-title">Contact Us</h2>
-				<p class="col-12 text-center">To place an order or for any inquiries, please contact us via phone or email.</p>
-			</header>
-
-			<div class="tm-container-inner-2 tm-contact-section">
-				<div class="row">
-					<div class="col-md-6">
-						<form action="" method="POST" class="tm-contact-form">
-					        <div class="form-group">
-					          <input type="text" name="name" class="form-control" placeholder="Name" required="" />
-					        </div>
-					        
-					        <div class="form-group">
-					          <input type="email" name="email" class="form-control" placeholder="Email" required="" />
-					        </div>
-				
-					        <div class="form-group">
-					          <textarea rows="5" name="message" class="form-control" placeholder="Message" required=""></textarea>
-					        </div>
-					
-					        <div class="form-group tm-d-flex">
-					          <button type="submit" class="tm-btn tm-btn-success tm-btn-right">
-					            Send
-					          </button>
-					        </div>
-						</form>
-					</div>
-					<div class="col-md-6">
-						<div class="tm-address-box">
-							<h4 class="tm-info-title tm-text-success">Our Address</h4>
-							<address>
-								Market Road, Islington, London, UK, N7 9GR
-							</address>
-							<a href="tel:+447983933135" class="tm-contact-link">
-								<i class="fas fa-phone tm-contact-icon"></i>(+44)7 983 933 135
-							</a>
-							<a href="mailto:canapestocakes@hotmail.com" class="tm-contact-link">
-								<i class="fas fa-envelope tm-contact-icon"></i>canapestocakes@hotmail.com
-							</a>
-							<div class="tm-contact-social">
-								<a href="https://fb.com/canapestocakes" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
-								<a href="https://twitter.com/canapestocakes" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
-								<a href="https://instagram.com/canapestocakes" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="tm-container-inner-2 tm-map-section">
-				<div class="row">
-					<div class="col-12">
-						<div class="tm-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14035.815287268551!2d-0.12889625772125157!3d51.54613908142482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b5dedeb3be5%3A0x54f085cb18ec65c9!2sLondon%20Borough%20of%20Islington%2C%20London!5e0!3m2!1sen!2suk!4v1718630433724!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>					</div>
-				</div>
-			</div>
-
-		</main>
-
-		<footer class="tm-footer text-center">
-			<p>Copyright &copy; 2024 Canapés to Cakes</p>
-		</footer>
-	</div>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/parallax.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			var acc = document.getElementsByClassName("accordion");
-			var i;
-			
-			for (i = 0; i < acc.length; i++) {
-			  acc[i].addEventListener("click", function() {
-			    this.classList.toggle("active");
-			    var panel = this.nextElementSibling;
-			    if (panel.style.maxHeight) {
-			      panel.style.maxHeight = null;
-			    } else {
-			      panel.style.maxHeight = panel.scrollHeight + "px";
-			    }
-			  });
-			}	
-		});
-	</script>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="header-background">
+                <div class="header-left">
+                    <img src="img/New folder/logo4.jpg" alt="Logo" class="tm-site-logo" />
+                    <div class="tm-site-text-box" style="background-color: black;">
+                        <h1 class="tm-site-title">Canapés to Cakes</h1>
+                        <h6 class="tm-site-description">Delicious Savoury and Desserts</h6>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <nav class="tm-nav">
+                        <ul class="tm-nav-ul" style="background-color: black; width: min-content; border-radius: 7px;">
+                            <li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+                            <li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+                            <li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <main>
+                <header class="row tm-welcome-section">
+                    <h2 class="col-12 text-center tm-section-title">Contact Us</h2>
+                    <p class="col-12 text-center">To place an order or for any inquiries, please contact us via phone or email.</p>
+                </header>
+                <div class="tm-container-inner-2 tm-contact-section">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form action="" method="POST" class="tm-contact-form">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Name" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <textarea rows="5" name="message" class="form-control" placeholder="Message" required=""></textarea>
+                                </div>
+                                <div class="form-group tm-d-flex">
+                                    <button type="submit" class="tm-btn tm-btn-success tm-btn-right">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tm-address-box">
+                                <h4 class="tm-info-title tm-text-success">Our Address</h4>
+                                <address style="color: #ffd700;">
+                                    Market Road, Islington, London, UK, N7 9GR
+                                </address>
+                                <a href="tel:+447983933135" class="tm-contact-link">
+                                    <i class="fas fa-phone tm-contact-icon" style="color: #ffd700;"></i>(+44)7 983 933 135
+                                </a>
+                                <a href="mailto:canapestocakes@hotmail.com" class="tm-contact-link">
+                                    <i class="fas fa-envelope tm-contact-icon" style="color: #ffd700;"></i>canapestocakes@hotmail.com
+                                </a>
+                                <div class="tm-contact-social">
+                                    <a href="https://fb.com/canapestocakes" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+                                    <a href="https://twitter.com/canapestocakes" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+                                    <a href="https://instagram.com/canapestocakes" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tm-container-inner-2 tm-map-section">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="tm-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14035.815287268551!2d-0.12889625772125157!3d51.54613908142482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b5dedeb3be5%3A0x54f085cb18ec65c9!2sLondon%20Borough%20of%20Islington%2C%20London!5e0!3m2!1sen!2suk!4v1718630433724!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="tm-footer text-center">
+                <p>Copyright &copy; 2024 Canapés to Cakes</p>
+            </footer>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script>
+        function initMap() {
+            var location = { lat: 51.5323, lng: -0.1045 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 14,
+                center: location,
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </body>
 </html>
