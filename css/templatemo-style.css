@@ -218,7 +218,7 @@ p, address {
 .placeholder-2 {
   width: 100%;
   min-height: 220px;
-  background-color: #CFBEA5;
+  background-color: black;
   position: relative;
   z-index: 998;
 }
@@ -236,6 +236,7 @@ p, address {
   margin-right: auto;
   background: transparent;
   position: relative;
+  border-radius: 7px;
 }
 
 .parallax-mirror {
@@ -419,7 +420,6 @@ p, address {
 .tm-paging-item {
   list-style: none;
   display: inline-block;
-  border: 1px solid #2F956D;
   margin: 7px;
 }
 
