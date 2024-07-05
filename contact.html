@@ -11,7 +11,7 @@
     <style>
         body {
             background-color: #000000; /* Black background */
-            color: #EFBF04; /* Gold text */
+            color: #f1c204d0; /* Gold text */
             font-family: 'Great Vibes', cursive; /* Google Font */
         }
 
@@ -26,12 +26,12 @@
         .content {
             background-color: #000000; /* Black background for main content */
             padding: 20px;
-            color: #EFBF04; /* Gold text */
+            color: #f1c204d0; /* Gold text */
 			border-radius: 10px;
         }
 
         .tm-site-title, .tm-site-description, .tm-nav-link, .tm-gallery-title, .tm-gallery-description, .tm-gallery-price, p, h2, h4 {
-            color: #EFBF04; /* Gold text for various elements */
+            color: #f1c204d0; /* Gold text for various elements */
         }
 
         .tm-site-logo {
@@ -40,7 +40,7 @@
         }
 
         .tm-nav-link.active {
-            border-bottom: 2px solid #EFBF04; /* Gold underline for active link */
+            border-bottom: 2px solid #f1c204d0; /* Gold underline for active link */
         }
 
         .tm-gallery-img, .tm-description-figure img {
@@ -56,16 +56,16 @@
         }
 
         a {
-            color: #EFBF04;
+            color: #f1c204d0;
         }
 
         .tm-btn-default {
-            background-color: #EFBF04;
+            background-color: #f1c204d0;
             color: #000000;
         }
 
         .tm-feature-description {
-            color: #EFBF04; /* Gold text */
+            color: #f1c204d0; /* Gold text */
         }
 
         .header-content {
@@ -94,50 +94,53 @@
             margin-top: auto; /* Push to the bottom */
         }
         .tm-contact-section {
-            color: #EFBF04;
+            color: #f1c204d0;
         }
 
         .tm-contact-section .tm-contact-link {
-            color: #EFBF04;
+            color: #f1c204d0;
         }
 
         .tm-contact-section h4 {
-            color: #EFBF04;
+            color: #f1c204d0;
         }
 
         .tm-contact-form .form-control {
             color: #000000;
-            background-color: #EFBF04;
-            border: 1px solid #EFBF04;
+            background-color: #efc0049d;
+            border: 1px solid #efc0049d;
         }
 
         .tm-contact-form .form-control:focus {
             color: #000000;
-            background-color: #EFBF04;
-            border-color: #EFBF04;
+            background-color: #f1c204d0;
+            border-color: #f1c204d0;
         }
 
         .tm-contact-form .tm-btn {
-            background-color: #EFBF04;
+            background-color: #f1c204d0;
             color: #000000;
         }
 
         .tm-contact-form .tm-btn:hover {
-            background-color: #EFBF04;
+            background-color: #f1c204d0;
             color: #000000;
         }
 
         .tm-footer {
-            color: #EFBF04; /* Gold text */
+            color: #f1c204d0; /* Gold text */
         }
 
         .tm-social-link {
-            color: #EFBF04;
+            color: #f1c204d0;
             margin: 0 5px;
         }
 
         .tm-social-link:hover {
             color: #ffffff;
+        }
+		.custom-placeholder::placeholder {
+            color: black; /* Gold placeholder text color */
         }
     </style>
 </head>
@@ -172,13 +175,13 @@
                         <div class="col-md-6">
                             <form action="" method="POST" class="tm-contact-form">
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Name" required="" />
+                                    <input type="text" name="name" class="form-control custom-placeholder" placeholder="Name" required="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Email" required="" />
+                                    <input type="email" name="email" class="form-control custom-placeholder" placeholder="Email" required="" />
                                 </div>
                                 <div class="form-group">
-                                    <textarea rows="5" name="message" class="form-control" placeholder="Message" required=""></textarea>
+                                    <textarea rows="5" name="message" class="form-control custom-placeholder" placeholder="Message" required=""></textarea>
                                 </div>
                                 <div class="form-group tm-d-flex">
                                     <button type="submit" class="tm-btn tm-btn-success tm-btn-right">Send</button>
@@ -188,14 +191,14 @@
                         <div class="col-md-6" style="font-family: sans-serif;">
                             <div class="tm-address-box">
                                 <h4 class="tm-info-title tm-text-success">Our Address</h4>
-                                <address style="color: #EFBF04;">
+                                <address style="color: #f1c204d0;">
                                     Market Road, Islington, London, UK, N7 9GR
                                 </address>
                                 <a href="tel:+447983933135" class="tm-contact-link">
-                                    <i class="fas fa-phone tm-contact-icon" style="color: #EFBF04;"></i>(+44)7 983 933 135
+                                    <i class="fas fa-phone tm-contact-icon" style="color: #f1c204d0;"></i>(+44)7 983 933 135
                                 </a>
                                 <a href="mailto:canapestocakes@hotmail.com" class="tm-contact-link">
-                                    <i class="fas fa-envelope tm-contact-icon" style="color: #EFBF04;"></i>canapestocakes@hotmail.com
+                                    <i class="fas fa-envelope tm-contact-icon" style="color: #f1c204d0;"></i>canapestocakes@hotmail.com
                                 </a>
                                 <div class="tm-contact-social">
                                     <a href="https://fb.com/canapestocakes" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
